@@ -1,0 +1,31 @@
+@import "./mixins.scss";
+
+.section {
+  @include section;
+
+  &.projects {
+    .content {
+      .header {
+        margin-bottom: 10px;
+
+        div {
+          display: flex;
+          justify-content: space-between;
+
+          .technologies {
+            font-style: italic;
+            font-weight: 200;
+          }
+
+          @media screen and (max-width: 700px) {
+            display: block;
+
+            .heading {
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

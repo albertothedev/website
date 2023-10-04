@@ -1,0 +1,80 @@
+:root {
+  // Nord palette: https://www.nordtheme.com/docs/colors-and-palettes
+  // Polar Night
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  // Snow Storm
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  // Frost
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  // Aurora
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+
+[data-theme="light"] {
+  --color-bg: var(--nord6);
+  --color-text: var(--nord0);
+  --color-main-heading: var(--nord10);
+  --color-secondary-heading: var(--nord10);
+  --color-tertiary-heading: var(--nord10);
+  --color-link: var(--nord15);
+  --color-hr: var(--nord4);
+  --color-button-active: var(--nord14);
+  --color-button-inactive: var(--nord4);
+  --color-button-active-and-hover-background: var(--nord4);
+}
+
+[data-theme="dark"] {
+  --color-bg: var(--nord0);
+  --color-text: var(--nord6);
+  --color-main-heading: var(--nord8);
+  --color-secondary-heading: var(--nord8);
+  --color-tertiary-heading: var(--nord8);
+  --color-link: var(--nord14);
+  --color-hr: var(--nord3);
+  --color-button-active: var(--nord13);
+  --color-button-inactive: var(--nord3);
+  --color-button-active-and-hover-background: var(--nord3);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  // max-width: 40vw;
+  max-width: 1000px;
+  margin: 20vh auto;
+  padding: 10px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    // color: red !important;
+    padding: 25px;
+    margin: 10vh auto;
+
+    font-size: 14px;
+  }
+}

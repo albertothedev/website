@@ -1,0 +1,52 @@
+@mixin section {
+  .header {
+    margin-bottom: 10px;
+
+    .heading {
+      font-size: 25px;
+      color: var(--color-secondary-heading);
+    }
+
+    hr {
+      border: 1px solid var(--color-hr);
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    list-style: none;
+    text-align: justify;
+
+    .entry {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+
+      .header {
+        .heading {
+          color: var(--color-tertiary-heading);
+          font-weight: 550;
+          font-size: 18px;
+        }
+      }
+
+      ul {
+        margin-left: 50px;
+        list-style-type: disc;
+
+        li {
+          &:not(:last-child) {
+            margin-bottom: 5px;
+          }
+        }
+
+        @media screen and (max-width: 700px) {
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+}

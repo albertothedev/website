@@ -1,0 +1,33 @@
+@import "./mixins.scss";
+
+.section {
+  @include section;
+
+  &.experience {
+    .content {
+      .header {
+        margin-bottom: 10px;
+
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+
+          .dates,
+          .location {
+            text-align: right;
+          }
+
+          .location {
+            font-style: italic;
+            font-weight: 200;
+
+            .dot {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
