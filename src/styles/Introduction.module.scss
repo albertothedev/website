@@ -8,11 +8,6 @@
     .heading {
       color: var(--color-main-heading);
     }
-
-    @media screen and (max-width: 700px) {
-      // display: initial;
-      // margin-bottom: 15px;
-    }
   }
 
   .description {
@@ -49,7 +44,6 @@
       }
 
       @media screen and (max-width: 700px) {
-        // text-align: initial;
         margin-right: 0;
       }
     }
@@ -60,14 +54,9 @@
       @media screen and (max-width: 700px) {
         width: 50px;
         height: 50px;
-        // position: absolute;
-        // top: 0;
+
         display: none;
       }
-    }
-
-    @media screen and (max-width: 700px) {
-      // display: initial;
     }
   }
 }
