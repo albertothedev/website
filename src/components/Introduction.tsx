@@ -18,10 +18,18 @@ export default function Introduction() {
             working at Trudesk since 2021.
             <br />
             <br />
-            While working at Trudesk, a help-desk service platform, I have
-            helped build a TypeScript API and UI SDK, a high-performance and
-            custom-built GraphQL API in Node.js with MongoDB and Mongoose, and a
-            responsive UI built with React.js and Next.js.
+            As a software developer at Trudesk, I work on a help-desk service
+            platform that enables businesses to provide fast and efficient
+            customer support. I use TypeScript, GraphQL, React.js, Node.js, and
+            MongoDB to build a high-performance and custom-built API that can
+            handle complex queries and data manipulation, a cloud-based and
+            on-premises SaaS UI with a suite of custom components and hooks, and
+            an easy-to-use developer SDK for React.js applications.
+            <br />
+            <br />
+            In my free time I enjoy learning languages. My native language is
+            Spanish and I already speak English at full professional proficency
+            so I am working towards reaching that level in German as well.
             <br />
             <br />
             Some of the technologies I work with are: JavaScript/TypeScript,
