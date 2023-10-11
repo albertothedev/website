@@ -38,9 +38,11 @@ export default function Introduction() {
             JavaScript/TypeScript <SeparatingDot /> Node.js <SeparatingDot />{" "}
             GraphQL <SeparatingDot /> CSS/SCSS <SeparatingDot /> React.js{" "}
             <SeparatingDot /> Vue.js <SeparatingDot /> Express.js{" "}
-            <SeparatingDot /> Next.js <SeparatingDot /> MySQL <SeparatingDot />{" "}
-            Firebase <SeparatingDot /> MongoDB <SeparatingDot /> AWS{" "}
-            <SeparatingDot /> Docker <SeparatingDot /> Git.
+            <SeparatingDot /> Next.js <SeparatingDot /> NestJS <SeparatingDot />{" "}
+            Jest <SeparatingDot /> Cypress <SeparatingDot /> MySQL{" "}
+            <SeparatingDot /> Firebase <SeparatingDot /> MongoDB{" "}
+            <SeparatingDot /> AWS <SeparatingDot /> Docker <SeparatingDot />{" "}
+            Git.
           </p>
 
           <ul className={styles.links}>
