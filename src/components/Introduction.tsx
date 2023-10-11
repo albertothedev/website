@@ -32,9 +32,15 @@ export default function Introduction() {
             so I am working towards reaching that level in German as well.
             <br />
             <br />
-            Some of the technologies I work with are: JavaScript/TypeScript,
-            Node.js, GraphQL, CSS/SCSS, React.js, Vue.js, Express.js, Next.js,
-            MySQL, Firebase, MongoDB, AWS, Docker, and Git.
+            Some of the technologies I work with are:
+            <br />
+            <br />
+            JavaScript/TypeScript <SeparatingDot /> Node.js <SeparatingDot />{" "}
+            GraphQL <SeparatingDot /> CSS/SCSS <SeparatingDot /> React.js{" "}
+            <SeparatingDot /> Vue.js <SeparatingDot /> Express.js{" "}
+            <SeparatingDot /> Next.js <SeparatingDot /> MySQL <SeparatingDot />{" "}
+            Firebase <SeparatingDot /> MongoDB <SeparatingDot /> AWS{" "}
+            <SeparatingDot /> Docker <SeparatingDot /> Git.
           </p>
 
           <ul className={styles.links}>
@@ -77,4 +83,8 @@ export default function Introduction() {
       </div>
     </div>
   );
+}
+
+function SeparatingDot() {
+  return <span className={styles.SeparatingDot}>·</span>;
 }
