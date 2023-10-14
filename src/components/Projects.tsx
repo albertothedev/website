@@ -25,7 +25,7 @@ export default function Projects() {
 
           <ul>
             <li>
-              Expanded a GraphQL-to-MongoDB write processor&apos;s support for
+              Expanded a GraphQL-to-MongoDB request processor&apos;s support for
               MongoDB operators.
             </li>
           </ul>
