@@ -12,7 +12,7 @@ export default function Experience() {
         <li className={styles.entry}>
           <div className={styles.header}>
             <div className={styles.container}>
-              <h3 className={styles.heading}>Software developer</h3>
+              <h3 className={styles.heading}>Full-Stack Software Developer</h3>
               <span className={styles.dates}>October 2021 - Present</span>
             </div>
 
