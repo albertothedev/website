@@ -14,8 +14,8 @@ export default function Introduction() {
       <div className={styles.content}>
         <div className={styles.introduction}>
           <p className={styles.description}>
-            I&apos;m a Full-Stack Software Developer based in Germany and
-            working at Trudesk since 2021.
+            I&apos;m a Fullstack Software Developer based in Germany and working
+            at Trudesk since 2021.
             <br />
             <br />
             As a software developer at Trudesk, I work on a help-desk service
