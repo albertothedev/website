@@ -28,7 +28,7 @@ export default function Introduction() {
             <br />
             <br />
             In my free time I enjoy learning languages. My native language is
-            Spanish and I already speak English at full professional proficency
+            Spanish and I already speak English at full professional proficiency
             so I am working towards reaching that level in German as well.
             <br />
             <br />
