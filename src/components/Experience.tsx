@@ -39,7 +39,7 @@ export default function Experience() {
               on custom GraphQL directives.
             </li>
             <li>
-              Assisted with the planning and led the implementation of a new
+              Assisted with the planning and led the development of a new
               frontend for the product using TypeScript, React.js, and Next.js.
             </li>
           </ul>
