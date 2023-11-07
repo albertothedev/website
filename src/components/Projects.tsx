@@ -48,8 +48,8 @@ export default function Projects() {
           <ul>
             <li>Implemented a real-time user-agent chat.</li>
             <li>
-              Built a suite of form components with overridable behavior via
-              hooks.
+              Built a UI library of form components with overridable behavior
+              via hooks.
             </li>
           </ul>
         </li>

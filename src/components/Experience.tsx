@@ -32,7 +32,7 @@ export default function Experience() {
             </li>
             <li>
               Co-managed the integration of a product with a client&apos;s
-              development team on-site.
+              development team on site.
             </li>
             <li>
               Implemented a user authentication and authorization system based
