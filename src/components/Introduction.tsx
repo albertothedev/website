@@ -23,8 +23,8 @@ export default function Introduction() {
             customer support. I use TypeScript, GraphQL, React.js, Node.js, and
             MongoDB to build a high-performance and custom-built API that can
             handle complex queries and data manipulation, a cloud-based and
-            on-premises SaaS UI with a suite of custom components and hooks, and
-            an easy-to-use developer SDK for React.js applications.
+            on-premises SaaS UI with a library of customizable components and
+            hooks, and an easy-to-use developer SDK for React.js applications.
             <br />
             <br />
             In my free time I enjoy learning languages. My native language is
