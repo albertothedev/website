@@ -19,8 +19,7 @@ export default function Experience() {
             <div className={styles.container}>
               <span className={styles.description}>Trudesk, Inc.</span>
               <span className={styles.location}>
-                Delaware, United States <span className={styles.dot}>·</span>{" "}
-                Remote
+                Hamburg, Germany <span className={styles.dot}>·</span> Remote
               </span>
             </div>
           </div>
