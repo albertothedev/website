@@ -26,6 +26,10 @@ export default function Experience() {
 
           <ul>
             <li>
+              Led the development of a new frontend using TypeScript, React.js,
+              and Next.js.
+            </li>
+            <li>
               Improved the performance of database write requests by ~89% by
               leveraging MongoDB aggregation pipelines.
             </li>
@@ -36,10 +40,6 @@ export default function Experience() {
             <li>
               Implemented a user authentication and authorization system based
               on custom GraphQL directives.
-            </li>
-            <li>
-              Assisted with the planning and led the development of a new
-              frontend for the product using TypeScript, React.js, and Next.js.
             </li>
           </ul>
         </li>
