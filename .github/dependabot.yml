@@ -13,7 +13,6 @@ updates:
       - "albertothedev"
     commit-message:
       prefix: "deps(npm)"
-      include: "scope"
     labels:
       - "dependencies"
     open-pull-requests-limit: 100
