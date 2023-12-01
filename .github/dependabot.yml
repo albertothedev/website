@@ -9,9 +9,10 @@ updates:
     directory: "/" # Location of package manifests
     assignees:
       - "albertothedev"
+    reviewers:
+      - "albertothedev"
     commit-message:
       prefix: "deps(npm)"
-      include: "scope"
     labels:
       - "dependencies"
     open-pull-requests-limit: 100
