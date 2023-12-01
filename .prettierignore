@@ -1,3 +1,6 @@
 pnpm-lock.yaml
 .next
 public
+
+# GitHub actions
+.pnpm-store/
