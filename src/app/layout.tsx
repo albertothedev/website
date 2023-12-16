@@ -2,6 +2,7 @@ import "@/styles/globals.scss";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // Font Awesome
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>{children}</Providers>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
