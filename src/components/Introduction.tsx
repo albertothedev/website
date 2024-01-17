@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ThemeToggleButton from "@/components/ThemeToggleButton";
+import ThemeToggleButtons from "@/components/ThemeToggleButtons";
 import styles from "@/styles/Introduction.module.scss";
 
 export default function Introduction() {
@@ -8,7 +8,7 @@ export default function Introduction() {
     <div className={styles.about}>
       <div className={styles.header}>
         <h1 className={styles.heading}>Hi, I&apos;m Alberto Vilches</h1>
-        <ThemeToggleButton />
+        <ThemeToggleButtons />
       </div>
 
       <div className={styles.content}>
