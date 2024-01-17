@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-regular-svg-icons";
 import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 
-import styles from "@/styles/ThemeToggleButton.module.scss";
+import styles from "@/styles/ThemeToggleButtons.module.scss";
 
 type Theme = "light" | "dark" | "system";
 
-export default function ThemeToggleButton() {
+export default function ThemeToggleButtons() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -39,7 +39,7 @@ export default function ThemeToggleButton() {
   };
 
   return (
-    <div className={styles.ThemeToggleButton}>
+    <div className={styles.ThemeToggleButtons}>
       <button
         {...getButtonDescription("light")}
         className={`${styles.button} ${theme === "light" ? styles.active : ""}`}
