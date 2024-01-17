@@ -8,6 +8,8 @@ import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "@/styles/ThemeToggleButton.module.scss";
 
+type Theme = "light" | "dark" | "system";
+
 export default function ThemeToggleButton() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -21,11 +23,25 @@ export default function ThemeToggleButton() {
     return null;
   }
 
+  const capitalizeFirstLetter = <T extends string>(string: T) =>
+    (string[0].toUpperCase() + string.slice(1)) as Capitalize<typeof string>;
+
+  const getButtonDescription = (type: Theme) => {
+    const description =
+      theme === type
+        ? `${capitalizeFirstLetter(type)} mode`
+        : `Change to ${type} mode`;
+
+    return {
+      title: description,
+      ["aria-label"]: description,
+    };
+  };
+
   return (
     <div className={styles.ThemeToggleButton}>
       <button
-        title="Change to light mode"
-        aria-label="Change to light mode"
+        {...getButtonDescription("light")}
         className={`${styles.button} ${theme === "light" ? styles.active : ""}`}
         onClick={() => setTheme("light")}
       >
@@ -33,8 +49,7 @@ export default function ThemeToggleButton() {
       </button>
 
       <button
-        title="Change to system mode"
-        aria-label="Change to system mode"
+        {...getButtonDescription("system")}
         className={`${styles.button} ${
           theme === "system" ? styles.active : ""
         }`}
@@ -44,8 +59,7 @@ export default function ThemeToggleButton() {
       </button>
 
       <button
-        title="Change to dark mode"
-        aria-label="Change to dark mode"
+        {...getButtonDescription("dark")}
         className={`${styles.button} ${theme === "dark" ? styles.active : ""}`}
         onClick={() => setTheme("dark")}
       >
