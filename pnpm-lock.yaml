@@ -25,7 +25,7 @@ dependencies:
     version: 1.0.10(next@14.2.3)(react@18.3.1)
   next:
     specifier: ^14.2.3
-    version: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.0)
+    version: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.1)
   next-themes:
     specifier: ^0.3.0
     version: 0.3.0(react-dom@18.3.1)(react@18.3.1)
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^3.2.5
     version: 3.2.5
   sass:
-    specifier: ^1.77.0
-    version: 1.77.0
+    specifier: ^1.77.1
+    version: 1.77.1
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -627,7 +627,7 @@ packages:
       react:
         optional: true
     dependencies:
-      next: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.0)
+      next: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.1)
       react: 18.3.1
       server-only: 0.0.1
     dev: false
@@ -656,7 +656,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      next: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.0)
+      next: 14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.1)
       react: 18.3.1
     dev: false
 
@@ -2049,7 +2049,7 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /next@14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.0):
+  /next@14.2.3(react-dom@18.3.1)(react@18.3.1)(sass@1.77.1):
     resolution: {integrity: sha512-dowFkFTR8v79NPJO4QsBUtxv0g9BrS/phluVpMAt2ku7H+cbcBJlopXjkWlwxrk/xGqMemr7JkGPGemPrLLX7A==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -2075,7 +2075,7 @@ packages:
       postcss: 8.4.31
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      sass: 1.77.0
+      sass: 1.77.1
       styled-jsx: 5.1.1(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.3
@@ -2391,8 +2391,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.77.0:
-    resolution: {integrity: sha512-eGj4HNfXqBWtSnvItNkn7B6icqH14i3CiCGbzMKs3BAPTq62pp9NBYsBgyN4cA+qssqo9r26lW4JSvlaUUWbgw==}
+  /sass@1.77.1:
+    resolution: {integrity: sha512-OMEyfirt9XEfyvocduUIOlUSkWOXS/LAt6oblR/ISXCTukyavjex+zQNm51pPCOiFKY1QpWvEH1EeCkgyV3I6w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
